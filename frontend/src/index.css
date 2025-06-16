@@ -1,0 +1,75 @@
+/* variables */
+:root {
+  --primary-color: #4a6741;
+  --secondary-color: #f39c12;
+  --secondary-text-color: #7F8487;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --card-bg: #fff;
+  --danger-color: #da4141;
+  --success-color: #2ecc71;
+  --out-of-stock-color: #bdc3c7;
+  --button-hover-color:#ffd7b5;
+}
+
+
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+h1{
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 56px;
+}
+h2{
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 20px;
+}
+h3{
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+
+.aboutUs{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  align-items: center;
+  p{
+    max-width: 1200px;
+  }
+}
+
+.aboutContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.subcategories{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+
+.title{
+  border-left: 5px solid var(--secondary-color);
+  padding: 12px;
+  display: flex;
+}
+
