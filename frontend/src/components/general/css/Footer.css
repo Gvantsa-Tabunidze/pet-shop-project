@@ -1,0 +1,80 @@
+
+:root {
+  --primary-color: #4a6741;
+  --secondary-color: #f39c12;
+  --secondary-text-color: #7F8487;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --card-bg: #fff;
+  --danger-color: #da4141;
+  --success-color: #2ecc71;
+  --out-of-stock-color: #bdc3c7;
+  --button-hover-color:#ffd7b5;
+}
+
+.footerdata{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    padding: 80px;
+    margin: auto;
+    h2{
+      color: white;
+      font-weight: 600;
+      padding: 8px;
+      border-bottom: 2px solid var(--secondary-color);
+    }
+    max-width: 1200px;
+    justify-content: space-between;
+    p{
+      color: white;
+    }
+    width: 100%;
+    
+}
+
+.pageFooter{
+  margin-top: 56px;
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  h1{
+    color: white;
+  }
+}
+
+
+
+.footerLinks{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+ 
+}
+
+.footerLinks > a {
+text-decoration: none;
+    color: white;
+    &:hover{
+      color: var(--secondary-color)
+    }
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pageFooter span {
+  color: white;
+  border-top: 1px solid var(--secondary-text-color);
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  font-weight: 300;
+  padding: 16px 0px 16px 0px;
+}
