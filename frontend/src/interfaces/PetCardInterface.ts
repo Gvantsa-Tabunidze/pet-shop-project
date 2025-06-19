@@ -1,5 +1,5 @@
 export default interface IPetcCard {
-  id:number | string,
+  id:number,
   img: string;
   name: string;
   priceGEL: number | string;

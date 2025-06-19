@@ -5,7 +5,7 @@ export const useWishList = ()=>{
 
     const isInWishList = (id:number) => wishlist.includes(id)
 
-    const toggleWishList = (id: string ) =>{
+    const toggleWishList = (id:number) =>{
         if(isInWishList(id)){
             setWishList(wishlist.filter(item=>item !==id))
         } else {

@@ -1,8 +1,6 @@
 import React from 'react'
-import PetCard from '../components/home/PetCard'
 import WishlistPet from '../components/WishlistPet'
 import { useWishList } from '../hooks/useWishList'
-import useFetch from '../hooks/UseFetch'
 import { useAppSelector } from '../hooks/useDispatch'
 
 const Wishlist:React.FC = () => {

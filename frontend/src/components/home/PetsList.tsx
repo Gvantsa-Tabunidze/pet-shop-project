@@ -27,7 +27,7 @@ const PetsList = () => {
       .catch(console.error)
   }, [dispatch])
 
-  //Check if the currency was changed and convert again
+  //Check if the currency was changed then convert 
    useEffect(() => {
     if (currency !== 'GEL' && originalPets.length > 0) {
       dispatch(getCurrency(currency))
