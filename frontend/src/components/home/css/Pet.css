@@ -1,0 +1,90 @@
+.petList{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cardFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.actionBtns{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+    & :hover{
+      background-color: var(--button-hover-color)
+    }
+  button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background: none;
+    border:2px solid black;
+  }
+  button:hover i.fa-heart {
+    color: var(--danger-color);
+  }
+    button:hover i.fa-cart-shopping {
+    color: var(--secondary-color); 
+  }
+}
+
+.primaryBtn{
+  outline: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px 8px 12px;
+  border: none;
+  
+ 
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  background-color: var(--primary-color);
+}
+
+.petContent{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  h2{
+    color: var(--primary-color);
+  }
+  h3{
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+}
+
+.petCard{
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  img{
+    width: 100%;
+  }
+}
+.listHolder{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.fa-solid.fa-heart.active{
+  color: var(--danger-color);
+}

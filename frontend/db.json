@@ -1,0 +1,143 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Golden Retriever",
+      "priceUSD": 800,
+      "priceGEL": 2200,
+      "description": "Friendly and intelligent family dog.",
+      "isPopular": true,
+      "stock": 5,
+      "img": "/goldenRetriever.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Siamese Cat",
+      "priceUSD": 600,
+      "priceGEL": 1700,
+      "description": "Elegant and vocal cat breed.",
+      "isPopular": true,
+      "stock": 3,
+      "img": "/siameseCat.webp"
+    },
+    {
+      "id": 3,
+      "name": "Budgerigar",
+      "priceUSD": 50,
+      "priceGEL": 140,
+      "description": "Small, colorful parakeet, great for beginners.",
+      "isPopular": false,
+      "stock": 15,
+      "img": "/budgies.avif"
+    },
+    {
+      "id": 4,
+      "name": "Goldfish",
+      "priceUSD": 10,
+      "priceGEL": 28,
+      "description": "Popular and easy-to-care-for aquarium fish.",
+      "isPopular": false,
+      "stock": 25,
+      "img": "/goldfish.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hamster",
+      "priceUSD": 30,
+      "priceGEL": 85,
+      "description": "Cute and active small pet, perfect for kids.",
+      "isPopular": true,
+      "stock": 10,
+      "img": "/hamster.jpg"
+    },
+    {
+      "id": 6,
+      "name": "African Grey Parrot",
+      "priceUSD": 1200,
+      "priceGEL": 3200,
+      "description": "Highly intelligent parrot known for talking skills.",
+      "isPopular": false,
+      "stock": 2,
+      "img": "/parrot.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Bearded Dragon",
+      "priceUSD": 150,
+      "priceGEL": 420,
+      "description": "Friendly and calm lizard, easy to care for.",
+      "isPopular": false,
+      "stock": 4,
+      "img": "/dragon.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Dogs",
+      "description": "Domesticated carnivores often kept as pets."
+    },
+    {
+      "id": 2,
+      "title": "Cats",
+      "description": "Small, carnivorous mammals known for companionship."
+    },
+    {
+      "id": 3,
+      "title": "Birds",
+      "description": "Feathered animals commonly kept as pets or aviary birds."
+    },
+    {
+      "id": 4,
+      "title": "Fish",
+      "description": "Aquatic animals kept in aquariums."
+    },
+    {
+      "id": 5,
+      "title": "Small Mammals",
+      "description": "Small furry pets like hamsters and guinea pigs."
+    },
+    {
+      "id": 6,
+      "title": "Reptiles",
+      "description": "Cold-blooded animals such as lizards and snakes."
+    }
+  ],
+  "pets_with_categories": [
+    {
+      "id": 1,
+      "pet_id": 1,
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "pet_id": 2,
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "pet_id": 3,
+      "category_id": 3
+    },
+    {
+      "id": 4,
+      "pet_id": 4,
+      "category_id": 4
+    },
+    {
+      "id": 5,
+      "pet_id": 5,
+      "category_id": 5
+    },
+    {
+      "id": 6,
+      "pet_id": 6,
+      "category_id": 3
+    },
+    {
+      "id": 7,
+      "pet_id": 7,
+      "category_id": 6
+    }
+  ]
+}
