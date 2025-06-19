@@ -10,7 +10,7 @@ const getCurrency = createAsyncThunk<{ currency: IPets['currency']; pets: IPets[
     async (toCurrency, ThunkAPI)=>{
         try {
             const state = ThunkAPI.getState() as { currency: IPets };
-            const originalPets = state.currency.originalPets;
+            const {originalPets} = state.currency;
 
             const convertedPets: IAnimals[] = await Promise.all(originalPets.map(async (pet) => {
             
@@ -24,9 +24,9 @@ const getCurrency = createAsyncThunk<{ currency: IPets['currency']; pets: IPets[
           );
             const data = await res.json();
             console.log(data)
-            
+          
             //Converted amount(we need to spread(copy initial pet with a new proeprty priceConverted)
-            const convertedAmount = data?.data?.amount ?? pet.priceGEL;
+            const convertedAmount = data?.data?.priceConverted ?? pet.priceGEL;
             return {
                 ...pet,
                 priceConverted: convertedAmount,

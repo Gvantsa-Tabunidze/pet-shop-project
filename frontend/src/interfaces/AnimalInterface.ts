@@ -1,7 +1,7 @@
 export default interface IAnimals {
-      id: number | string,
+      id: number,
       name: string,
-      priceUSD: number,
+      priceUSD: number | string,
       priceGEL: number,
       priceConverted?:number,
       description: string,
